@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Bicycle', 'Bus', 'Car', 'LCV', 'Three-wheeler', 'Truck', 'Two-wheelers']
+
+roboflow:
+  workspace: mohit-sharma-akgo1
+  project: indian-vehicles-dataset
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mohit-sharma-akgo1/indian-vehicles-dataset/dataset/1
